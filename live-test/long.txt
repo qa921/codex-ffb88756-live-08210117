@@ -1,3 +1,0 @@
-Mercury live test payload 0123456789 abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ
-second line
-third line
