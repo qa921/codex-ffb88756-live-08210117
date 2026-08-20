@@ -1,0 +1,17 @@
+name: Mercury Live Test
+on:
+  workflow_dispatch:
+    inputs:
+      marker:
+        description: Marker
+        required: false
+        default: minimal
+      mode:
+        description: Mode
+        required: false
+        default: smoke
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ${{ github.event.inputs.marker }}-${{ github.event.inputs.mode }}
